@@ -1226,7 +1226,24 @@ h1 {
 }
 
 @media screen and (max-width: 736px) {
-  #main header.style1:nth-of-type(2) {  /* the second .style1 header = Pricing */
-    margin-top: 3em !important;
+  /* Target the Pricing header specifically – it's the second .style1 in #main */
+  #main .container header.style1 {
+    margin-top: 3em !important;     /* Push it down more – increase to 4em if needed */
+    padding-top: 1.5em;             /* Extra internal breathing room */
+  }
+
+  /* Give the services feature list extra bottom space so Pricing doesn't crowd it */
+  #features .feature-list {
+    margin-bottom: 3em !important;
+  }
+
+  /* Optional: If the "Our Services" title feels too close to the hero image/banner_2 */
+  #main .title {
+    margin-bottom: 2.5em !important;
+  }
+
+  /* Ensure the Pricing subtitle doesn't collapse upward */
+  .pricing-subtitle {
+    margin-top: 2.5em !important;   /* Reinforce its own top margin on small screens */
   }
 }
