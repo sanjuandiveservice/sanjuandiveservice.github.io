@@ -932,7 +932,7 @@ background: url("images/shadow.png");
 	-moz-justify-content: center; -webkit-justify-content: center; -ms-justify-content: center; justify-content: center;
 	position: relative;
 	height: 24em;
-	background: url("../../images/banner.JPG") center center;
+	background: url("../../images/banner.jpg") center center;
 	background-size: cover;
 	padding: 0;
 }
