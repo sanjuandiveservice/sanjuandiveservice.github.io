@@ -1224,3 +1224,9 @@ h1 {
     text-align: left;
     letter-spacing: 0.04em;
 }
+
+@media screen and (max-width: 736px) {
+  #main .container > header.style1 {   /* targets the Pricing header */
+    margin-top: 2.5em;                 /* or try 3em / 4em if still too close */
+    padding-top: 1em;
+  }
